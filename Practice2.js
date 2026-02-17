@@ -1,9 +1,7 @@
-var Math = 75.25;
-var Biology = 65;
-var Chemistry = 80;
-var Physics = 35.45;
-var Bangla = 99.50;
+let bangla = 59;
+let english = 89;
+let HigherMath = 99;
 
-var avg = (Math+Biology+Chemistry+Physics+Bangla) / 5 ;
+let avg = (bangla + english + HigherMath) / 3;
 
-console.log(avg.toFixed(2));
+console.log(avg.toFixed(3));
